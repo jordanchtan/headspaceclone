@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "235288410898",
+    "firebase_url": "https://smiletribe-eec3f.firebaseio.com",
+    "project_id": "smiletribe-eec3f",
+    "storage_bucket": "smiletribe-eec3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235288410898:android:1f9323809add5616",
+        "android_client_info": {
+          "package_name": "com.example.jordan.smiletribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235288410898-hidcae38i24ar1oe31bql04b9di26h79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jordan.smiletribe",
+            "certificate_hash": "89cb547c7d4c964ba103641baa241bf2ed02a0c2"
+          }
+        },
+        {
+          "client_id": "235288410898-k8g5k49po4s7pa9vc0csgq8338h19bp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJHoHBlu4KamZHxzkds_nZsxJbXZ6Y9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235288410898-k8g5k49po4s7pa9vc0csgq8338h19bp9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "235288410898-l27vvst7anqa7vhhlk9e0957u5qd76st.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mvplab.test.smileTribe"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235288410898:android:ed3086553d028494",
+        "android_client_info": {
+          "package_name": "com.example.jordan.smiletribematerial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235288410898-qsj9d3miqnhbln4o9e1nl7pgd532d7sq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jordan.smiletribematerial",
+            "certificate_hash": "89cb547c7d4c964ba103641baa241bf2ed02a0c2"
+          }
+        },
+        {
+          "client_id": "235288410898-k8g5k49po4s7pa9vc0csgq8338h19bp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJHoHBlu4KamZHxzkds_nZsxJbXZ6Y9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235288410898-k8g5k49po4s7pa9vc0csgq8338h19bp9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "235288410898-l27vvst7anqa7vhhlk9e0957u5qd76st.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mvplab.test.smileTribe"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

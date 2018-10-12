@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amber500"
+    tools:context=".QuestionSlideFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/questionLabelID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="200dp"
+        android:text="question num"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/questionTextID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionTextID"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="73dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center_horizontal"
+        android:text="question text"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/countdownTimerID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionLabelID" />
+
+    <TextView
+        android:id="@+id/countdownTimerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginRight="167dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:text=" "
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tempNextButtonID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionTextID" />
+
+    <ImageButton
+
+        android:id="@+id/tempNextButtonID"
+        android:layout_width="83dp"
+        android:layout_height="81dp"
+
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/roundcorner"
+        android:padding="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_mic_none_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countdownTimerID" />
+</android.support.constraint.ConstraintLayout>

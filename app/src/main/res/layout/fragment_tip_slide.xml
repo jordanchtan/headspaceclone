@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amber500"
+    tools:context=".TipSlideFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tipNameID"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="149dp"-->
+    <!--android:text="tip name"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/tipNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:layout_marginTop="110dp"
+        android:text="Tip number"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/questionTextID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tipTextID"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="56dp"-->
+    <!--android:text="tip text"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/tipNameID"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/tipNameID" />-->
+
+    <TextView
+        android:id="@+id/questionTextID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="178dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginStart="27dp"
+        android:gravity="center_horizontal"
+        android:text="Tip text"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/startQuestionsButtonID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipNameID" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/startQuestionsButtonID"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+
+        android:layout_marginBottom="133dp"
+        android:text="Start"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/green500"
+        app:cornerRadius="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionTextID" />
+
+</android.support.constraint.ConstraintLayout>

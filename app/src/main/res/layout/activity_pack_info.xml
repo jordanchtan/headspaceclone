@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amber500"
+    tools:context=".PackInfoActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+
+        android:id="@+id/exitButtonID"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundcorner"
+        android:elevation="3dp"
+        android:onClick="exitInfo"
+        android:padding="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_close_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/packNameID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/packNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="packName"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/packDescriptionID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exitButtonID" />
+
+    <TextView
+        android:id="@+id/packDescriptionID"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:gravity="center_horizontal"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:text="packDescription"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/numberOfWorkoutsID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/packNameID" />
+
+    <TextView
+        android:id="@+id/packNumberOfWorkoutsID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="97dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:gravity="center_horizontal"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:text="packNumberOfWorkouts"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/addRemovePackButtonID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberOfWorkoutsID" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/addRemovePackButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="102dp"
+        android:onClick="clickAddRemoveButton"
+        android:text="Add Pack"
+        app:backgroundTint="@color/green500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/packNumberOfWorkoutsID" />
+
+    <TextView
+        android:id="@+id/numberOfWorkoutsID"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginStart="67dp"
+        android:gravity="center_horizontal"
+        android:text="Number of Workouts:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/packNumberOfWorkoutsID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/packDescriptionID" />
+</android.support.constraint.ConstraintLayout>
